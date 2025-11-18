@@ -1,0 +1,28 @@
+---
+id: 6f277957-d6d8-4603-a206-57990303495d
+---
+graph TD
+    A[IoT Sensors] --> B[Data Collection Hub]
+    B --> C[Data Preprocessing & Storage]
+    C --> D[AI Model Inference]
+    D --> E[Yield Prediction Output]
+    E --> F[Decision Support System]
+    F --> G[Actuators: Irrigation, Alerts]
+    G --> H[Feedback Loop to Sensors]
+
+    subgraph "IoT Layer"
+        A
+    end
+
+    subgraph "Edge/Cloud Processing"
+        B
+        C
+        D
+    end
+
+    subgraph "Application Layer"
+        E
+        F
+        G
+        H
+    end
