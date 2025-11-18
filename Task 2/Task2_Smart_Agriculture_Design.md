@@ -37,6 +37,9 @@ This AI model will enable proactive decision-making, such as adjusting irrigatio
 The following Mermaid chart illustrates the data flow in the smart agriculture system, focusing on how sensor data is collected, processed by AI, and used for decision-making.
 
 ```mermaid
+---
+id: 6f277957-d6d8-4603-a206-57990303495d
+---
 graph TD
     A[IoT Sensors] --> B[Data Collection Hub]
     B --> C[Data Preprocessing & Storage]
