@@ -1,2 +1,5 @@
 garbage_classification
 .idea
+.ipynb_checkpoints
+.vscode
+.h5
